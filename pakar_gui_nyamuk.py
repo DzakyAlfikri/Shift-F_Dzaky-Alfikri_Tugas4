@@ -107,7 +107,6 @@ ttk.Label(mainframe, text="Silakan jawab pertanyaan berikut untuk diagnosa.").gr
 kotak_pertanyaan = tk.Text(mainframe, height=5, width=50, wrap=tk.WORD, state=tk.DISABLED)
 kotak_pertanyaan.grid(column=0, row=2, columnspan=3, pady=10)
 
-# Frame untuk tombol Ya/Tidak di tengah
 button_frame = ttk.Frame(mainframe)
 button_frame.grid(column=0, row=3, columnspan=3, pady=10)
 
